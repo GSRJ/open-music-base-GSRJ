@@ -1,0 +1,19 @@
+.grey-button {
+  font-size: var(--font-3);
+  font-weight: 500;
+  background-color: var(--color-grey-1-opacity);
+  color: var(--color-grey-1);
+  padding: 0.25rem 0.5rem;
+  border-radius: var(--radius-1);
+  border: none;
+  color: white;
+}
+
+.grey-button:hover {
+  color: white;
+  background-color: var(--color-grey-1);
+}
+.grey-button:focus {
+  color: white;
+  background-color: var(--color-grey-1);
+}

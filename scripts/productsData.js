@@ -1,7 +1,7 @@
 const products = [
   {
     title: "Magnetite",
-    category: 1,
+    category: ["Rock"],
     price: 89.0,
     img: "../../assets/img/1.jpg",
     band: "Scalene",
@@ -10,7 +10,7 @@ const products = [
   },
   {
     title: "Acabou o Chorare",
-    category: 2,
+    category: ["MPB"],
     price: 66.0,
     img: "../../assets/img/2.jpg",
     band: "Novos Baianos",
@@ -19,7 +19,7 @@ const products = [
   },
   {
     title: "Nirvana Discografia",
-    category: 3,
+    category: ["Rock"],
     price: 50.0,
     img: "../../assets/img/3.jpg",
     band: "Nirvava",
@@ -28,12 +28,30 @@ const products = [
   },
   {
     title: "Both Sides",
-    category: 4,
+    category: ["Rock"],
     price: 22.0,
     img: "../../assets/img/4.jpg",
     band: "Phil Collins",
     year: 1993,
     id: 3,
+  },
+  {
+    title: "ARTPOP",
+    category: ["Pop"],
+    price: 55.0,
+    img: "../../assets/img/5.jpg",
+    band: "Lady Gaga",
+    year: 2013,
+    id: 4,
+  },
+  {
+    title: "Marmota",
+    category: ["Forró"],
+    price: 25.99,
+    img: "../../assets/img/6.jpg",
+    band: "Getúlio Abelha",
+    year: 2021,
+    id: 5,
   },
 ];
 

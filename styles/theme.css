@@ -1,0 +1,5 @@
+.dark-mode {
+  background-color: var(--color-grey-1);
+  color: var(--color-white-fixed);
+}
+
